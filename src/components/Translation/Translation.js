@@ -9,8 +9,8 @@ export default class Translation extends Component{
   }
   render() {
     return (
-     <div>
-       <h3>{this.props.translation}</h3>
+     <div className='translation'>
+       <h3 className={this.props.translated ? 'visible' : 'hidden'}>{this.props.translation}</h3>
      </div>
      );
     }

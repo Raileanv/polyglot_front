@@ -14,8 +14,13 @@ export default class Blackboard extends Component{
     return (
      <div className="blackboard-wrapper">
        <div className="blackboard">
-        <Word word={this.props.word.word} link_to_audio={this.props.word.link_to_audio}/>
-        <Translation translation={this.props.word.translation} />
+         <div className="word-translation-wrapper">
+           <Word word={this.props.word.word} link_to_audio={this.props.word.link_to_audio}/>
+           <Translation
+            translation={this.props.word.translation}
+            translated={this.props.translated}
+            />
+         </div>
         <div className="buttons_wrapper" >
           {this.props.quality_of_recall.map(quality =>
             <Button

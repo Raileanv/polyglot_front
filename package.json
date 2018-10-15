@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Yaponcik/polyglot_front.git"
   },
-  "author": "Railean Vladimir",
+  "author": "['Vladimir Railean', 'raileanv@gmail.com']",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Yaponcik/polyglot_front/issues"
@@ -22,6 +22,8 @@
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "eslint": "^5.7.0",
+    "eslint-loader": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
@@ -34,6 +36,7 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "^2.0.4",
+    "react-motion": "^0.5.2",
     "style-loader": "^0.23.0"
   }
 }

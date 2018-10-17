@@ -7,15 +7,11 @@ import styles from './HamburgerButton.scss'
 export default class HamburgerButton extends Component {
   constructor() {
     super()
-    this.state = {
-      toggle: false
-    }
-    this.handleClick = this.handleClick.bind(this)
+
+
   }
 
-  handleClick() {
-    this.setState({toggle: !this.state.toggle})
-  }
+
 
   render() {
     const style = {
@@ -31,13 +27,13 @@ export default class HamburgerButton extends Component {
           <svg
           viewBox="0 0 96 96"
           height="1em"
-          onClick={this.handleClick}
+          onClick={this.props.handleClick}
           style={style}
           >
           <Motion
           style={{
-            x: spring(this.state.toggle ? 1 : 0, presets.wobbly ),
-            y: spring(this.state.toggle ? 0: 1, presets.wobbly ),
+            x: spring(this.props.menuOpened ? 1 : 0, presets.wobbly ),
+            y: spring(this.props.menuOpened ? 0: 1, presets.wobbly ),
           }}
           >
           {({ x, y }) =>

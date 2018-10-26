@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 
-import classes from './Header.scss'
+import classes from './Header.css'
 
 import HamburgerButton from '../HamburgerButton/HamburgerButton'
 import SideMenu from '../SideMenu/SideMenu'

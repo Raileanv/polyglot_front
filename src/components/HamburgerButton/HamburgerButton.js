@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import { Motion, spring, presets } from 'react-motion'
 
-import styles from './HamburgerButton.scss'
+import styles from './HamburgerButton.css'
 
 export default class HamburgerButton extends Component {
   constructor() {

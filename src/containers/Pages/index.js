@@ -7,12 +7,19 @@ import Cources from './Cources'
 import Instructions from './Instructions'
 import TrainingRoom from './TrainingRoom'
 
-export default ()=> (
-  <Switch>
-    <Route path="/" exact component={Dashboard} />
-    <Route path="/statistics"  component={Statistics} />
-    <Route path="/cources"  component={Cources} />
-    <Route path="/instructions"  component={Instructions} />
-    <Route path="/training_room"  component={TrainingRoom} />
-  </Switch>
-)
+export default class Pages extends Component{
+  constructor(props) {
+    super(props)
+  }
+  render() {
+    return (
+      <Switch>
+        <Route path="/" exact component={Dashboard} />
+        <Route path="/statistics"  component={Statistics} />
+        <Route path="/cources"  component={Cources} />
+        <Route path="/instructions"  component={Instructions} />
+        <Route path="/training_room"  component={TrainingRoom} />
+      </Switch>
+     );
+    }
+  }

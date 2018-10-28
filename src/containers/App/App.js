@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 
 import Header from '../../components/Header/Header'
+import Pages from '../Pages'
 
 
 export default class App extends Component{
@@ -12,6 +13,7 @@ export default class App extends Component{
     return (
      <div>
       <Header />
+      <Pages />
      </div>
      );
     }

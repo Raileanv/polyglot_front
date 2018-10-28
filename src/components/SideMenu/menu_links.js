@@ -2,7 +2,7 @@ const menu_links = [
   {
     name: 'Кабинет',
     icon: 'assignment_ind',
-    link: '/dashboard'
+    link: '/'
   },
   {
     name: 'Статистика',
@@ -22,7 +22,7 @@ const menu_links = [
   {
     name: 'Заниматься',
     icon: 'create',
-    link: '/dashboard'
+    link: '/training_room'
   },
 ]
 

@@ -2,10 +2,10 @@
   "name": "polyglot",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Yaponcik/polyglot_front#readme",
+  "homepage": "https://yaponcik.github.io/polyglot_ui/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yaponcik/polyglot_front.git"
+    "url": "git+https://github.com/Yaponcik/polyglot_ui.git"
   },
   "author": "['Vladimir Railean', 'raileanv@gmail.com']",
   "dependencies": {

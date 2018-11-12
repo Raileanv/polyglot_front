@@ -9,9 +9,7 @@ class App extends Component {
     return (
       <div >
         <Layout>
-
-            <Pages />
-
+          <Pages />
         </Layout>
       </div>
     );

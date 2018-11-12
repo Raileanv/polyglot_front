@@ -6,20 +6,20 @@ import Statistics from './Statistics'
 import Cources from './Cources'
 import Instructions from './Instructions'
 import TrainingRoom from './TrainingRoom'
+import Aux from '../../hoc/Aux'
 
-export default class Pages extends Component{
-  constructor(props) {
-    super(props)
-  }
-  render() {
+const pages = () =>  {
+
+
     return (
-      <Switch>
+      <Aux>
         <Route path="/" exact component={Dashboard} />
         <Route path="/statistics"  component={Statistics} />
         <Route path="/cources"  component={Cources} />
         <Route path="/instructions"  component={Instructions} />
         <Route path="/training_room"  component={TrainingRoom} />
-      </Switch>
+      </Aux>
      );
-    }
+
   }
+export default pages;

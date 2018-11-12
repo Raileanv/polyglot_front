@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import Aux from '../../hoc/Aux';
 import classes from './Layout.css';
@@ -20,7 +20,7 @@ class Layout extends Component {
   }
   render(){
     return(
-      <BrowserRouter basename={'/polyglot_ui'}>
+      <HashRouter basename={'/polyglot_ui'}>
         <Aux>
           <Toolbar drawerToggleClicked={this.drawerToggleHandler}/>
           <SideDrawer
@@ -30,7 +30,7 @@ class Layout extends Component {
               {this.props.children}
           </main>
         </Aux>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }

@@ -19,6 +19,10 @@ class Layout extends Component {
     });
   }
   render(){
+    let attachedClasses = [classes.Content, classes.Close];
+    if (this.state.showSideDrawer){
+      attachedClasses = [classes.Content, classes.Open];
+    }
     return(
       <BrowserRouter basename={'/polyglot_ui'}>
         <Aux>
@@ -26,7 +30,7 @@ class Layout extends Component {
           <SideDrawer
             open={this.state.showSideDrawer}
             closed={this.sideDrawerClosedHandler}/>
-          <main className={classes.Content}>
+          <main className={attachedClasses.join(' ')}>
               {this.props.children}
           </main>
         </Aux>

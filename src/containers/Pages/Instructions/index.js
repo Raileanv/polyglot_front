@@ -8,7 +8,7 @@ export default class Instructions extends Component{
     return (
      <div>
       <h1>
-        Instructions
+        Тут страница с инструкциями
       </h1>
      </div>
      );

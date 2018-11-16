@@ -8,7 +8,7 @@ export default class Cources extends Component{
     return (
      <div>
       <h1>
-        Cources
+        Тут будет страница для выбора и покупки курсов
       </h1>
      </div>
      );

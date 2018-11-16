@@ -8,7 +8,7 @@ export default class TrainingRoom extends Component{
     return (
      <div>
       <h1>
-        TrainingRoom
+        Тут будет тренажер
       </h1>
      </div>
      );

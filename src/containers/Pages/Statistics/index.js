@@ -8,7 +8,7 @@ export default class Statistics extends Component{
     return (
      <div>
       <h1>
-        Statistics
+        На этой странице можно будет посмотеть статистику
       </h1>
      </div>
      );

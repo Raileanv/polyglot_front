@@ -1,9 +1,0 @@
-.Hamburger{
-  position: absolute;
-  height: 1em;
-  top: 50%;
-  left: 3%;
-  transform: translate(-50%, -50%);
-  font-size: 2.5em;
-  color: white
-}
